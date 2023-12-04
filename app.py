@@ -53,6 +53,6 @@ if st.button('Predict'):
     # 4. Display
     st.title("Result :")
     if result == 1:
-        st.header("Spam")
+        st.header("It is a spam")
     else:
-        st.header("Not Spam")
+        st.header("It is not a spam")
