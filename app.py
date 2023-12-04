@@ -56,3 +56,33 @@ if st.button('Predict'):
         st.header("It is a spam")
     else:
         st.header("It is not a spam")
+
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #0e1117;
+color: white;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed with ❤ by <a style='text-align: center;' href="https://jash-sharma.github.io/Portfolio/" target="_blank">Jash Sharma</a></p>
+<p>Might Make Mistakes</p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
