@@ -1,3 +1,7 @@
 streamlit
 nltk
 sklearn
+numpy
+pandas
+pickle
+string
