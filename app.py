@@ -107,7 +107,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed with ❤ by Jash, Sakshi and Savithri</p>
+<p>Developed with ❤ by Jash</p>
 <p>Might Make Mistakes</p>
 </div>
 """
